@@ -1,0 +1,40 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "laqya-app",
+          "appId": "1:718210157792:android:f5cff39c70984f86a49485",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "laqya-app",
+          "configurations": {
+            "android": "1:718210157792:android:f5cff39c70984f86a49485",
+            "ios": "1:718210157792:ios:9f5a4481cb57991ca49485",
+            "web": "1:718210157792:web:cb5745258af9ac9da49485",
+            "windows": "1:718210157792:web:210c3bf8b14a04daa49485"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+
+      ]
+    }
+  ]
+}

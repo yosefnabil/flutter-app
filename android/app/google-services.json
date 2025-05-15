@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "718210157792",
+    "project_id": "laqya-app",
+    "storage_bucket": "laqya-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718210157792:android:f5cff39c70984f86a49485",
+        "android_client_info": {
+          "package_name": "com.example.laqya_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH_lfU5tsAGDOcAL12frlEmuyrRfZPzRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
